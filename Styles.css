@@ -1,0 +1,66 @@
+body {
+    font-family: 'Pacifico',cursive;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff; 
+    background-image: url('https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D'); 
+    background-size: cover;
+    background-position: auto;
+    color:#ffffff; 
+}
+
+label {
+    font-family: 'Pacifico',cursive;
+    display: block;
+    margin-bottom: 8px; 
+    color: #ffffff; 
+}
+
+input, select {
+    font-family: 'Pacifico',cursive;
+    margin-bottom: 12px;
+    font-weight: 300; 
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    width: 200px;
+}
+
+button {
+    font-family: 'Pacifico',cursive;
+    padding: 12px 20px; 
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#output {
+    font-family: 'Pacifico';
+    margin-top: auto;
+    font-weight: bold;
+    color: #f44336; 
+    margin-bottom: 20px;
+    font-size: 20px; 
+    text-align: center;
+    background-color: #eee8e8; 
+    padding: 16px;
+    border-radius: 8px;
+}
+footer {
+    padding: 10px; 
+    color: #080808;
+    text-align: center;
+
+}
